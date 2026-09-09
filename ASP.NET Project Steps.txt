@@ -1,0 +1,46 @@
+ ASP.NET Web Forms – Simple Steps
+1. Open Visual Studio → Create a New Project
+2. Select ASP.NET Web Application (.NET Framework) → Next
+3. Select Empty → Select Web Forms → Create
+4. Add Folder → App_Code
+5. Inside App_Code, create:
+      ├── DAL
+      ├── BAL
+      └── ENT
+6. Add Class files in DAL, BAL & ENT
+7. Add Folder → Admin
+8. Right-click Admin → Add → New Item → Web Form
+9. Enter page name (e.g., Login.aspx) → Add
+10. Start development:
+      Web Form → BAL → DAL → Database
+
+
+ASP.NET Core Web API – Simple Steps
+
+1. Open Visual Studio → Create a New Project
+2. Select ASP.NET Core Web API → Next
+3. Select .NET 8 (LTS) → Create
+4. Add the following folders:
+      ├── DAL
+      ├── BAL
+      ├── Model
+      └── Controllers
+5. Add Class (.cs) files inside DAL, BAL & Model
+6. Add API Controller (.cs) files inside Controllers
+7. Implement the API flow:
+      Controller → BAL → DAL → Database
+8. Test the API using Swagger
+
+ASP.NET Core MVC – Simple Steps
+1. Open Visual Studio → Create a New Project
+2. Select ASP.NET Core Web App (Model-View-Controller) → Next
+3. Select .NET 8 (LTS) → Create
+4. Add the following folders:
+      ├── Areas
+      ├── DAL
+      └── BAL
+5. Right-click Areas → Add → New Scaffolded Item / Area
+6. Enter the Area name (e.g., Admin) → Add
+7. Add Controllers, Views and Models inside the Area
+8. Implement the flow:
+      Controller → BAL → DAL → Database
