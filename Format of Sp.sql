@@ -273,10 +273,3 @@ END CATCH
 
 SET		@EndTime = [dbo].[GetServerDateTime]()
 --EXEC	[dbo].[PR_MST_SPExecution_Insert] '[dbo].[PR_MST_ExpenseType_Update]', @StartTime, @EndTime
-ALTER PROCEDURE [dbo].[PR_MST_ExpenseType_SelectComboBox]
-
-AS
-
-SELECT [ExpenseTypeID]
-      ,[ExpenseType]      
-  FROM [dbo].[MST_ExpenseType]
